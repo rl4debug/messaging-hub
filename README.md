@@ -8,6 +8,8 @@ Project structure (main items)
 
 ---
 
+### Note: (must install golang compiler first)
+
 `1. Get source`
 
 ```sh
@@ -16,7 +18,7 @@ go get -u -v github.com/rl4debug/messaging-hub
 
 ```
 
-`2. Build and Run (must install golang compiler first)`
+`2. Build and Run`
 
 ```sh
 #For build server
