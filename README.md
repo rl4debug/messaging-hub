@@ -8,13 +8,18 @@ Project structure (main items)
 
 ---
 
-### Note: (must install golang compiler first [Here](https://golang.org/dl/))
+### Note: (must install golang compiler [Here](https://golang.org/dl/), and GIT command-line)
 
 `1. Get source`
 
 ```sh
-go get -u -v github.com/rl4debug/messaging-hub
-#Command above will download source to `$GOPATH/src/github.com/rl4debug/message-hub`
+#1. Create folder structure `$GOPATH/src/github.com/rl4debug/
+#2. Navigate to `$GOPATH/src/github.com/rl4debug/ then run command:
+git clone https://github.com/rl4debug/messaging-hub
+
+#Download dependency packages
+go get -u -v github.com/satori/go.uuid
+go get -u -v github.com/fatih/color
 
 ```
 
