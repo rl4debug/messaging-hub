@@ -8,7 +8,7 @@ Project structure (main items)
 
 ---
 
-### Note: (must install golang compiler first)
+### Note: (must install golang compiler first [Here](https://golang.org/dl/))
 
 `1. Get source`
 
