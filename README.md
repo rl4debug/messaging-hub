@@ -14,6 +14,8 @@ Project structure (main items)
 
 ```sh
 #1. Create folder structure `$GOPATH/src/github.com/rl4debug/
+#    To see the location of $GOPATH type command:
+go env
 #2. Navigate to `$GOPATH/src/github.com/rl4debug/ then run command:
 git clone https://github.com/rl4debug/messaging-hub
 
@@ -27,7 +29,7 @@ go get -u -v github.com/fatih/color
 
 ```sh
 #For build server
-#navigate to ....github.com/rl4debug/message-hub/src/server
+#navigate to $GOPATH/src/github.com/rl4debug/message-hub/src/server
 #Then run command:
 go build main.go server.go
 
@@ -36,7 +38,7 @@ go build main.go server.go
 
 
 #Build client
-#navigate to ....github.com/rl4debug/message-hub/src/clients/client-cl
+#navigate to $GOPATH/src/github.com/rl4debug/message-hub/src/clients/client-cl
 #Then run command:
 go build main.go
 #Run client
