@@ -10,11 +10,11 @@ Project structure (main items)
 
 `1. Get source`
 
-```
+```sh
 go get -u -v github.com/rl4debug/messaging-hub
-```
+#Command above will download source to `$GOPATH/src/github.com/rl4debug/message-hub`
 
-This command will download source to `$GOPATH/src/github.com/rl4debug/message-hub`
+```
 
 `2. Build and Run (must install golang compiler first)`
 
